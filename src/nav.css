@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: beige;
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+    border-bottom: 2px solid black;
+}
+
+nav a:focus {
+    color: aqua;
+}
+
+nav a:active {
+    color: black;
+}
+
+nav a:link {
+    color: green;
+}
+
+.App .cards {
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.App .cards .card {
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.App .cards .card h1 {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.App .cards .card p {
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 10px;
+}
+
+.App .cards .card a {
+    text-decoration: wavy;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+}
+
+.App .cards .card a:hover{
+    color: purple;
+    border-bottom: 1px solid red;
+}
+
+.App .cards .card button {
+    margin-top: 6px;
+    padding: 10px;
+    background-color: blue;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.App .cards .card button:hover {
+    color: rgb(255, 192, 192);
+}
